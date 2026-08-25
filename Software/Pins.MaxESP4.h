@@ -93,8 +93,8 @@
 #define AXIS1_M1_PIN            OFF              // hardwired for TMC UART address 0
 #define AXIS1_M2_PIN            OFF              // UART TX
 #define AXIS1_M3_PIN            OFF              // UART RX
-#define AXIS1_STEP_PIN          2
-#define AXIS1_DIR_PIN           1                // [must be high at boot 0]
+#define AXIS1_STEP_PIN          4
+#define AXIS1_DIR_PIN           3                // [must be high at boot 0]
 #ifndef AXIS1_SENSE_HOME_PIN
   #define AXIS1_SENSE_HOME_PIN  AUX3_PIN
 #endif
@@ -105,8 +105,8 @@
 #define AXIS2_M1_PIN            ON              // hardwired for TMC UART address 1
 #define AXIS2_M2_PIN            OFF              // N/C
 #define AXIS2_M3_PIN            OFF              // UART RX
-#define AXIS2_STEP_PIN          4
-#define AXIS2_DIR_PIN           3
+#define AXIS2_STEP_PIN          2
+#define AXIS2_DIR_PIN           1
 #ifndef AXIS2_SENSE_HOME_PIN
   #define AXIS2_SENSE_HOME_PIN  AUX4_PIN
 #endif

@@ -22,7 +22,7 @@ Documentation, assembly instructions, diagrams and other written
 project material are licensed under Creative Commons
 Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
 
-See `Documentation/LICENSE`.
+See `Documentation/LICENSE` for the full licence text.
 
 ## Software and Firmware
 

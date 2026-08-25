@@ -14,7 +14,7 @@ Unless otherwise stated, the CubeMate hardware design files, including:
 are licensed under the CERN Open Hardware Licence Version 2 -
 Strongly Reciprocal (CERN-OHL-S-2.0).
 
-See `LICENSES/CERN-OHL-S-2.0.txt` for the full licence text.
+See `Hardware/LICENSE` for the full licence text.
 
 ## Documentation
 
@@ -22,7 +22,7 @@ Documentation, assembly instructions, diagrams and other written
 project material are licensed under Creative Commons
 Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
 
-See `LICENSES/CC-BY-SA-4.0.txt`.
+See `Documentation/LICENSE`.
 
 ## Software and Firmware
 

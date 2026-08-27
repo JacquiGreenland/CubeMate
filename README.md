@@ -127,11 +127,11 @@ CubeMate has been tested using several imaging configurations.  These were all p
 
 ### ~180 mm imaging
 
-With a lightweight imaging payload, consisting of a ZWO ASI585MC Air and a Nikon 180 mm prime lens, CubeMate has demonstrated sustained sub-arcsecond guiding.
+With a lightweight imaging payload consisting of a ZWO ASI585MC Air and a Nikon 180 mm prime lens, using the custom wedge and an EQ5 tripod, CubeMate has demonstrated sustained sub-arcsecond guiding.
 
 ### ~975 mm imaging
 
-The mount was also tested with a substantially more demanding imaging train consisting of an SVBONY MK127 using it's supplied focal reducer giving approximately **975 mm focal length** pair with an Altair filter wheel, an Altair 585MM camera, and a ZWO off-axis guider with a QHY5L-II-M guide camera, along with a stepper motor, bracket, and a DIY Moonlite compatible focuser.  This payload is approximately 6Kg in total - a 1.9Kg counterweight was used.
+The mount was also tested with a substantially more demanding imaging train consisting of an SVBONY MK127 using it's supplied focal reducer giving approximately **975 mm focal length** pair with an Altair filter wheel, an Altair 585MM camera, and a ZWO off-axis guider with a QHY5L-II-M guide camera, along with a stepper motor, bracket, and a DIY Moonlite compatible focuser, in conjunction with the custom wedge and an EQ5 tripod.  This payload is approximately 6Kg in total - a 1.9Kg counterweight was used.
 
 Representative results with this payload included:
 
@@ -166,9 +166,9 @@ CubeMate does not use a single absolute payload rating because useful payload de
 
 As a practical guide:
 
-- **5–6 kg without counterweight** is a realistic luggable-use region for many imaging systems;
+- **5–6 kg without counterweight** is a realistic upper limit for luggable-use;
 - around **10 kg** is a sensible design target for the current luggable configuration with appropriate counterweights;
-- larger loads may be possible with counterweighting and careful setup;
+- larger loads may be possible with a combination of counterweighting and careful setup;
 - future Type 17 or larger strain-wave-drive variants could increase the available torque substantially.
 
 For astrophotography, guiding performance is a more useful measure than whether the mount can simply carry a given mass.

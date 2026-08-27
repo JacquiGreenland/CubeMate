@@ -137,10 +137,10 @@ Representative results with this payload included:
 
 - mature guiding around **1.2–1.4 arcsec RMS** near the celestial equator;
 - sustained sub-arcsecond intervals imaging more favourable high declination targets;
-- approximately **0.88 arcsec RMS** during a 240-second exposure;
-- approximately **1.15 arcsec RMS** during a 300-second exposure;
-- approximately **0.59 arcsec RMS** during a 300-second exposure;
-- approximately **0.85 arcsec RMS** during a 600-second exposure.
+  - approximately **0.88 arcsec RMS** during a 240-second exposure;
+  - approximately **1.15 arcsec RMS** during a 300-second exposure;
+  - approximately **0.59 arcsec RMS** during a 300-second exposure;
+  - approximately **0.85 arcsec RMS** during a 600-second exposure.
 
 Matched-star analysis showed no meaningful increase, or variation, in star elongation across exposure durations from 1 to 10 minutes.
 

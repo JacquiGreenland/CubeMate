@@ -113,7 +113,7 @@ The mount runs **OnStepX**, which provides:
 - meridian and limit handling;
 - INDI / application integration.
 
-CubeMate does **not** redistribute OnStepX itself.
+OnStepX needs to be downloaded separately and compiled with the supplied pinmap and configuration filesalong with any other desired software changes.
 
 The repository includes CubeMate-specific configuration material and the custom ESP32-S3 pin map required for the controller PCB.
 

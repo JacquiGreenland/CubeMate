@@ -43,7 +43,7 @@ CubeMate was designed around my personal priorities:
 - **real astrophotography performance rather than theoretical payload claims;**
 - **modularity and scope for future upgrades.**
 
-The aim is not to claim that CubeMate is a drop-in replacement for every commercial strain-wave mount. Commercial products offer advantages such as factory QA, tested periodic-error characteristics, support, warranties, and polished integration.
+The aim is not to claim that CubeMate is a drop-in replacement for every commercial strain-wave mount. Commercial products offer advantages such as factory QA, tested periodic-error characteristics, support, warranties, and polished integration.  Some manufacturers, such as MLAstro, offer similar repairability along with all the other commercial benefits of precision and support.
 
 CubeMate instead demonstrates what can be achieved with open hardware, relatively inexpensive components, careful mechanical design, and community software. It is not unique in this, but the design is highly modular and can be extended around the same basic form factor and principle.
 

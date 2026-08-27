@@ -123,7 +123,7 @@ The repository includes CubeMate-specific configuration material and the custom 
 
 ## Proven astrophotography performance
 
-CubeMate has been tested using several imaging configurations.
+CubeMate has been tested using several imaging configurations.  These were all performed in suburban Bristol and not under pristine dark skies.
 
 ### ~180 mm imaging
 
@@ -131,9 +131,9 @@ With a lightweight imaging payload, consisting of a ZWO ASI585MC Air and a Nikon
 
 ### ~975 mm imaging
 
-The mount was also tested with a substantially more demanding imaging train at approximately **975 mm focal length** using an off-axis guider.
+The mount was also tested with a substantially more demanding imaging train consisting of an SVBONY MK127 using it's supplied focal reducer giving approximately **975 mm focal length** pair with an Altair filter wheel, an Altair 585MM camera, and a ZWO off-axis guider with a QHY5L-II-M guide camera, along with a stepper motor, bracket, and a DIY Moonlite compatible focuser.  This payload is approximately 6Kg in total - a 1.9Kg counterweight was used.
 
-Representative results included:
+Representative results with this payload included:
 
 - mature guiding around **1.2–1.4 arcsec RMS** near the celestial equator;
 - sustained sub-arcsecond intervals;
@@ -186,7 +186,7 @@ Counterweights can still be useful because they:
 - improve stability with longer or heavier optical systems;
 - increase the usable payload range.
 
-The current design supports counterweight use where required using a counterweight shaft with a 12 mm thread. This allows several different off-the-shelf counterweight systems to be used.
+The current design supports counterweight use where required using a counterweight shaft with a 12 mm thread. This allows several different off-the-shelf counterweight systems to be used.  The reference model uses a ZWO counterweight shaft with a 12mm thread and a 20mm diameter and skywatcher EQ5 weights.
 
 ---
 

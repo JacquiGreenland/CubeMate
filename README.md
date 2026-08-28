@@ -51,7 +51,7 @@ CubeMate instead demonstrates what can be achieved with open hardware, relativel
 
 ## Why 'Luggable' and not 'Portable'
 
-CubeMate is notionally portable, and my wife and I certainly will be travelling with it, but it is not something you can simply throw into your hand luggage. The term is a deliberate nod to the old Compaq "luggables": portable PCs, certainly, but a long way from what laptops would eventually become.
+CubeMate is notionally portable, and my wife and I certainly will be travelling with it, but it is not something you can simply throw into your hand luggage. It's the same size and weight of many commercial strain-wave mounts and it bothers me that they refer to them as portable!  The term is a deliberate nod to the old Compaq "luggables": portable PCs, certainly, but a long way from what laptops would eventually become.
 
 ---
 

@@ -113,7 +113,7 @@ The mount runs **OnStepX**, which provides:
 - meridian and limit handling;
 - INDI / application integration.
 
-OnStepX needs to be downloaded separately and compiled with the supplied pinmap and configuration filesalong with any other desired software changes.
+OnStepX needs to be downloaded separately and compiled with the supplied pinmap and configuration files along with any other desired software changes.
 
 The repository includes CubeMate-specific configuration material and the custom ESP32-S3 pin map required for the controller PCB.
 
@@ -131,14 +131,15 @@ With a lightweight imaging payload consisting of a ZWO ASI585MC Air and a Nikon 
 
 ### ~975 mm imaging
 
-The mount was also tested with a substantially more demanding imaging train consisting of an SVBONY MK127 using it's supplied focal reducer giving approximately **975 mm focal length** pair with an Altair filter wheel, an Altair 585MM camera, and a ZWO off-axis guider with a QHY5L-II-M guide camera, along with a stepper motor, bracket, and a DIY Moonlite compatible focuser, in conjunction with the custom wedge and an EQ5 tripod.  This payload is approximately 6Kg in total - a 1.9Kg counterweight was used.
+The mount was also tested with a substantially more demanding imaging train consisting of an SVBONY MK127 using its supplied focal reducer giving approximately **975 mm focal length** paired with an Altair filter wheel, an Altair 585MM camera, and a ZWO off-axis guider with a QHY5L-II-M guide camera, along with a stepper motor, bracket, and a DIY Moonlite compatible focuser, in conjunction with the custom wedge and an EQ5 tripod.  This payload is approximately 6 kg in total - a 1.9 kg counterweight was used.
 
 Representative results with this payload included:
 
 - mature guiding around **1.2–1.4 arcsec RMS** near the celestial equator;
-- sustained sub-arcsecond intervals imaging more favourable high declination targets;
   - approximately **0.88 arcsec RMS** during a 240-second exposure;
   - approximately **1.15 arcsec RMS** during a 300-second exposure;
+
+- sustained sub-arcsecond intervals imaging a more favourable high declination target (C4);
   - approximately **0.59 arcsec RMS** during a 300-second exposure;
   - approximately **0.85 arcsec RMS** during a 600-second exposure.
 
@@ -186,7 +187,7 @@ Counterweights can still be useful because they:
 - improve stability with longer or heavier optical systems;
 - increase the usable payload range.
 
-The current design supports counterweight use where required using a counterweight shaft with a 12 mm thread. This allows several different off-the-shelf counterweight systems to be used.  The reference model uses a ZWO counterweight shaft with a 12mm thread and a 20mm diameter and skywatcher EQ5 weights.
+The current design supports counterweight use where required using a counterweight shaft with a 12 mm thread. This allows several different off-the-shelf counterweight systems to be used.  The reference model uses a ZWO counterweight shaft with a 12 mm thread and a 20 mm diameter and SkyWatcher EQ5 weights.
 
 ---
 

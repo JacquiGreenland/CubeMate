@@ -6,7 +6,7 @@
 
 CubeMate is a compact, open-source telescope mount designed around low-cost strain-wave (harmonic) gearboxes, stepper motors, CNC-machined aluminium parts, and the [OnStepX](https://github.com/hjd1964/OnStepX) control platform.
 
-The project was created because I wanted to build my own mount based around strain-wave gearboxes and evolved into an exploration of how far a practical DIY harmonic-drive mount could be taken using off-the-shelf parts. The result is a vaguely travel-friendly, modular, and compact mount that can be assembled with basic tools. It can operate in either **Equatorial (EQ)** or **Alt-Az** configurations and has been validated with real astrophotography workloads, including guiding at approximately 1 metre focal length while carrying a 6 kg payload.
+The project was created because I wanted to build my own mount based around strain-wave gearboxes and evolved into an exploration of how far a practical DIY strain-wave mount could be taken using off-the-shelf parts. The result is a vaguely travel-friendly, modular, and compact mount that can be assembled with basic tools. It can operate in either **Equatorial (EQ)** or **Alt-Az** configurations and has been validated with real astrophotography workloads, including guiding at approximately 1 metre focal length while carrying a 6 kg payload.
 
 CubeMate is intended as an **open hardware engineering project**, not a commercial product. It is buildable, modifiable, and intended to be improved by the community.
 
@@ -32,7 +32,7 @@ The design is functionally complete, although there are still areas of refinemen
 
 ## Why CubeMate?
 
-Commercial compact strain-wave drive mounts are excellent, but they were also extremely expensive when this project started. In recent years cheaper options using a similar mechanical principle to CubeMate have appeared, but the major commercial brands still typically cost several times the parts cost of assembling CubeMate.
+Commercial compact strain-wave drive mounts are excellent, but they were also extremely expensive when this project started. In recent years cheaper options using a similar mechanical principle to CubeMate have appeared, but the major commercial brands still typically involve spending several times the parts cost of assembling CubeMate.
 
 CubeMate was designed around my personal priorities:
 
@@ -51,7 +51,7 @@ CubeMate instead demonstrates what can be achieved with open hardware, relativel
 
 ## Why 'Luggable' and not 'Portable'
 
-CubeMate is notionally portable, and my wife and I certainly will be travelling with it, but it is not something you can simply throw into your hand luggage. It's the same size and weight of many commercial strain-wave mounts and it bothers me that they refer to them as portable!  The term is a deliberate nod to the old Compaq "luggables": portable PCs, certainly, but a long way from what laptops would eventually become.
+CubeMate is notionally portable, and my wife and I certainly will be travelling with it, but it is not something you can simply throw into your hand luggage. It's the same size and weight as many commercial strain-wave mounts and it bothers me that they refer to them as portable!  The term is a deliberate nod to the old Compaq "luggables": portable PCs, certainly, but a long way from what laptops would eventually become.
 
 ---
 
@@ -123,7 +123,7 @@ The repository includes CubeMate-specific configuration material and the custom 
 
 ## Proven astrophotography performance
 
-CubeMate has been tested using several imaging configurations.  These were all performed in suburban Bristol and not under pristine dark skies.
+CubeMate has been tested using several imaging configurations.  All of these tests were performed in suburban Bristol and not under pristine dark skies.
 
 ### ~180 mm imaging
 
@@ -131,7 +131,7 @@ With a lightweight imaging payload consisting of a ZWO ASI585MC Air and a Nikon 
 
 ### ~975 mm imaging
 
-The mount was also tested with a substantially more demanding imaging train consisting of an SVBONY MK127 using its supplied focal reducer giving approximately **975 mm focal length** paired with an Altair filter wheel, an Altair 585MM camera, and a ZWO off-axis guider with a QHY5L-II-M guide camera, along with a stepper motor, bracket, and a DIY Moonlite compatible focuser, in conjunction with the custom wedge and an EQ5 tripod.  This payload is approximately 6 kg in total - a 1.9 kg counterweight was used.
+The mount was also tested with a substantially more demanding imaging train consisting of an SVBONY MK127 using its supplied focal reducer giving approximately **975 mm focal length** paired with an Altair filter wheel, an Altair 585MM camera, and a ZWO off-axis guider with a QHY5L-II-M guide camera, along with a stepper motor, bracket, and a DIY Moonlite-compatible focuser, in conjunction with the custom wedge and an EQ5 tripod.  This payload is approximately 6 kg in total - a 1.9 kg counterweight was used.
 
 Representative results with this payload included:
 
@@ -139,7 +139,7 @@ Representative results with this payload included:
   - approximately **0.88 arcsec RMS** during a 240-second exposure;
   - approximately **1.15 arcsec RMS** during a 300-second exposure;
 
-- sustained sub-arcsecond intervals imaging a more favourable high declination target (C4);
+- sustained sub-arcsecond intervals imaging a more favourable high-declination target (C4);
   - approximately **0.59 arcsec RMS** during a 300-second exposure;
   - approximately **0.85 arcsec RMS** during a 600-second exposure.
 

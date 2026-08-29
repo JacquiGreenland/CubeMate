@@ -225,20 +225,17 @@ This makes it suitable for:
 
 ## Build cost
 
-The current prototype was built for approximately **US$400–500 in parts**. I believe that offers very strong value when measured against its performance.
+The current reference model was built for approximately **USD $500** although prices have risen a little since then and I would expect to pay around **USD $600** at current pricing.
 
 This figure is indicative only and excludes:
 
-- tools;
-- development costs;
-- optional accessories;
 - tripod / pier / wedge;
-- imaging equipment;
-- shipping variation;
+- variations in local pricing.
+- shipping costs;
 - import taxes;
-- local CNC pricing.
 
-The CNC aluminium parts for the prototype cost approximately **US$250 delivered** in the UK, including shipping and tax. The Type 14 strain-wave gearboxes can be sourced for as little as approximately **US$100 each**, including shipping and tax. These two expenditures account for the bulk of the build cost.
+
+At the time of writing the CNC aluminium parts and the PCB for the reference model cost approximately **USD $240**. The Type 14 strain-wave gearboxes can be sourced for as little as **USD $100 each** from Aliexpress, including shipping and tax. The stepper motors are sourced from StepperOnline for **USD $14**.  Ancillary parts, including the electronics, can be sourced from amazon for These two expenditures account for the bulk of the build cost, most of the rest of the items can be sourced from Amazon for about **USD $100** total.
 
 Repeat builds may vary significantly depending on supplier and location. Supply chain status and availability of materials will also impact spot pricing.
 

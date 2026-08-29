@@ -201,9 +201,7 @@ CubeMate can be configured for equatorial use.
 
 The current prototype uses a **custom EQ wedge**. That wedge is not included in the initial open release because the present design is functional but not sufficiently user-friendly to be recommended as a general solution.
 
-Instead, the repository includes interface parts that allow CubeMate to be attached to other EQ wedge solutions, including:
-
-- **Vixen-style dovetail interface**
+Instead, the repository includes a step file for a Vixen-Style Dovetail plate that allows CubeMate to be attached to other EQ wedge solutions.
 
 A more refined open EQ wedge is planned for the future.
 
@@ -235,7 +233,7 @@ This figure is indicative only and excludes:
 - import taxes;
 
 
-At the time of writing the CNC aluminium parts and the PCB for the reference model cost approximately **USD $240**. The Type 14 strain-wave gearboxes can be sourced for as little as **USD $100 each** from Aliexpress, including shipping and tax. The stepper motors are sourced from StepperOnline for **USD $14**.  Ancillary parts, including the electronics, can be sourced from amazon for These two expenditures account for the bulk of the build cost, most of the rest of the items can be sourced from Amazon for about **USD $100** total.
+At the time of writing the CNC aluminium parts and the PCB for the reference model cost approximately **USD $240**. The Type 14 strain-wave gearboxes can be sourced for as little as **USD $100 each** from Aliexpress, including shipping and tax. The stepper motors are sourced from StepperOnline for **USD $14 each**.  Ancillary parts, including the electronics, can be sourced from amazon for These two expenditures account for the bulk of the build cost, most of the rest of the items can be sourced from Amazon for about **USD $100** total.
 
 Repeat builds may vary significantly depending on supplier and location. Supply chain status and availability of materials will also impact spot pricing.
 

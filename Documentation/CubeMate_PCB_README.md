@@ -2,7 +2,7 @@
 
 ## About this board
 
-The CubeMate controller PCB is a custom two-axis controller designed specifically for CubeMate. It provides the electronics required to drive the right ascension (RA) and declination (DEC) axes using OnStep, while keeping the controller simple, modular and easy to repair or replace.
+The CubeMate controller PCB is a custom two-axis controller designed specifically for CubeMate. It provides the electronics required to drive the right ascension (RA) and declination (DEC) axes using OnStepX, while keeping the controller simple, modular and easy to repair or replace.
 
 The design is intentionally based around readily available modules rather than permanently soldered controller or driver ICs. In the reference build, the ESP32-S3 and both TMC2209 stepper drivers are socketed so that any of them can be replaced without removing the complete PCB from service.
 

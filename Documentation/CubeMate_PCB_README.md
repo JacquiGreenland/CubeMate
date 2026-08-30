@@ -132,7 +132,7 @@ This was added because the onboard ESP32-S3 Zero USB-C serial interface has not 
 
 The PCB is designed to accommodate two styles of serial module:
 
-- a CH340E-based USB-to-TTL module with an onboard micro-USB connector; or
+- a MSOP10 CH340E-based USB-to-TTL module with an onboard micro-USB connector; or
 - the **ZY-CP2102 USB-TTL serial UART module** used in the reference CubeMate build.
 
 The reference instructions below describe the ZY-CP2102 arrangement.

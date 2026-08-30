@@ -149,9 +149,11 @@ RX
 
 on the TTL side of the serial module.
 
-The module fits directly into the PCB position, so the required TX/RX routing is already handled by the PCB layout.
+The module fits directly into the PCB position using 6 solder pads/through-holes, so the required TX/RX routing is already handled by the PCB layout. However the pinout of these 6 holes is indicated on the silkscreen.  
 
 ### ZY-CP2102 voltage-selector pads
+
+The module is connected to the **centre 4 pins** as the outer pins provide additional power and ground lines for the MSOP10 module if it is used.
 
 The reference ZY-CP2102 module has solder selectors for **5 V** and **3.3 V** operation.
 
@@ -166,11 +168,12 @@ This arrangement avoids feeding host USB power into the main controller power sy
 The USB side of the CP2102 module presents:
 
 ```text
-VCC
 GND
 D+
 D-
+VCC
 ```
+and are labelled on the silkscreen.
 
 These are connected to the panel-mounted USB fly lead according to the wiring of the particular panel connector or fly lead selected for the build.
 

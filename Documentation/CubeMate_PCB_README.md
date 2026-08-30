@@ -23,7 +23,7 @@ A complete controller uses:
 | 1 kohm resistor | 1 | Part of the shared single-wire TMC2209 UART interface. SMD footprint plus through-hole alternative pads are provided. |
 | JST-XH 4-pin board connector | 2 | One stepper-motor connector per axis. |
 | Status LED | 1 | OnStep status indication. Mounted on the underside of the PCB. |
-| 1 x 4 GPIO header | 1 | Exposes four otherwise-unused ESP32 GPIO connections for future expansion. |
+| 2 x 4 GPIO header | 1 | Exposes four otherwise-unused ESP32 GPIO connections for future expansion with individual ground pins. |
 | 5.5 x 2.1 mm horizontal PCB DC jack | 1 optional | Centre-positive in the reference build. Direct-wired power can be used instead. |
 | USB-to-TTL serial module | 1 optional | Reference build uses a ZY-CP2102 module. The PCB can also accommodate a CH340E-based module. |
 | Pin headers / sockets | As required | Used for replaceable modules and detachable panel wiring. |

@@ -19,7 +19,7 @@ A complete controller uses:
 | Waveshare ESP32-S3 Zero | 1 | Main OnStep controller. Some suppliers also describe this small-format board as an ESP32-S3 Mini. | https://www.aliexpress.com/item/1005009067129211.html |
 | TMC2209 V3.0 stepper driver module | 2 | One driver for RA and one for DEC. Socketing is recommended. | https://www.aliexpress.com/item/1005010256315174.html |
 | 100 uF, 35 V electrolytic capacitor | 2 | One on the motor-power supply line for each TMC2209. SMD footprint plus through-hole alternative pads are provided. |  |
-| Mini 360 buck converter module | 1 | Regulates the incoming supply to 3.3 V for the ESP32-S3. | |
+| Mini 360 buck converter module | 1 | Regulates the incoming supply to 3.3 V for the ESP32-S3. | https://www.aliexpress.com/item/1005008498997638.html |
 | 1 kohm resistor | 1 | Part of the shared single-wire TMC2209 UART interface. SMD footprint plus through-hole alternative pads are provided. | |
 | JST-XH 4-pin board connector | 2 | One stepper-motor connector per axis. | |
 | Status LED | 1 | OnStep status indication. Mounted on the underside of the PCB. | |

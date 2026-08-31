@@ -410,9 +410,9 @@ CubeMate would not exist without the work of the OnStep / OnStepX community and 
 Particular thanks go to the developers and contributors behind:
 
 - [OnStepX](https://github.com/hjd1964/OnStepX)
-- PHD2
-- INDI
-- KStars / EKOS
+- [PHD2](https://openphdguiding.org/)
+- [INDI](https://indilib.org/)
+- [KStars](https://kstars.kde.org/)
 
 and to everyone who has documented, tested, and shared practical experience with DIY telescope mounts and harmonic-drive systems.
 

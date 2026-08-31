@@ -14,19 +14,19 @@ This document covers the controller PCB itself. Mechanical installation of the c
 
 A complete controller uses:
 
-| Component | Qty | Notes |
-| --- | ---: | --- |
-| Waveshare ESP32-S3 Zero | 1 | Main OnStep controller. Some suppliers also describe this small-format board as an ESP32-S3 Mini. |
-| TMC2209 V3.0 stepper driver module | 2 | One driver for RA and one for DEC. Socketing is recommended. |
-| 100 uF, 35 V electrolytic capacitor | 2 | One on the motor-power supply line for each TMC2209. SMD footprint plus through-hole alternative pads are provided. |
-| Mini 360 buck converter module | 1 | Regulates the incoming supply to 3.3 V for the ESP32-S3. |
-| 1 kohm resistor | 1 | Part of the shared single-wire TMC2209 UART interface. SMD footprint plus through-hole alternative pads are provided. |
-| JST-XH 4-pin board connector | 2 | One stepper-motor connector per axis. |
-| Status LED | 1 | OnStep status indication. Mounted on the underside of the PCB. |
-| 2 x 4 GPIO header | 1 | Exposes four otherwise-unused ESP32 GPIO connections for future expansion with individual ground pins. |
-| 5.5 x 2.1 mm horizontal PCB DC jack | 1 (optional) | Centre-positive in the reference build. Direct-wired power can be used instead. |
-| USB-to-TTL serial module | 1  | Reference build uses a ZY-CP2102 module. The PCB can also accommodate a CH340E-based module. |
-| Pin headers / sockets | As required | Used for replaceable modules and detachable panel wiring. |
+| Component | Qty | Notes | Link| 
+| --- | ---: | --- | --- |
+| Waveshare ESP32-S3 Zero | 1 | Main OnStep controller. Some suppliers also describe this small-format board as an ESP32-S3 Mini. | https://www.aliexpress.com/item/1005009067129211.html |
+| TMC2209 V3.0 stepper driver module | 2 | One driver for RA and one for DEC. Socketing is recommended. | https://www.aliexpress.com/item/1005010256315174.html |
+| 100 uF, 35 V electrolytic capacitor | 2 | One on the motor-power supply line for each TMC2209. SMD footprint plus through-hole alternative pads are provided. |  |
+| Mini 360 buck converter module | 1 | Regulates the incoming supply to 3.3 V for the ESP32-S3. | |
+| 1 kohm resistor | 1 | Part of the shared single-wire TMC2209 UART interface. SMD footprint plus through-hole alternative pads are provided. | |
+| JST-XH 4-pin board connector | 2 | One stepper-motor connector per axis. | |
+| Status LED | 1 | OnStep status indication. Mounted on the underside of the PCB. | |
+| 2 x 4 GPIO header | 1 | Exposes four otherwise-unused ESP32 GPIO connections for future expansion with individual ground pins. | |
+| 5.5 x 2.1 mm horizontal PCB DC jack | 1 (optional) | Centre-positive in the reference build. Direct-wired power can be used instead. | |
+| USB-to-TTL serial module | 1  | Reference build uses a ZY-CP2102 module. The PCB can also accommodate a CH340E-based module. | https://www.aliexpress.com/item/1005010271946733.html |
+| Pin headers / sockets | As required | Used for replaceable modules and detachable panel wiring. | |
 
 Exact supplier links can be added to this document where useful.
 
@@ -60,7 +60,7 @@ The power supply must also be appropriately rated for the two stepper motors and
 
 ### Important: set the Mini 360 before installing the ESP32
 
-> **Do not install or power the ESP32-S3 Zero until the Mini 360 output has been adjusted and measured at 3.3 V.**
+> **Do not install or power the ESP32-S3 Zero or TMC2209 modules until the Mini 360 output has been adjusted and measured at 3.3 V.  Ideally set it on the bench before soldering to the board**
 
 The Mini 360 is adjustable. Before fitting the ESP32-S3 Zero, power the board and use a multimeter to set and verify the regulator output at **3.3 V**.
 
@@ -274,13 +274,3 @@ Where practical, the reference build therefore uses:
 
 This allows most likely points of failure - or future upgraded controller modules - to be replaced without rebuilding the complete electronics assembly.
 
----
-
-## References still to add
-
-- [LINK REQUIRED] Waveshare ESP32-S3 Zero reference / supplier
-- [LINK REQUIRED] TMC2209 V3.0 module reference / supplier
-- [LINK REQUIRED] Mini 360 buck converter reference
-- [LINK REQUIRED] ZY-CP2102 module reference / supplier
-- [LINK REQUIRED] TMC2209 Vref/current calculator or setup reference
-- [LINK REQUIRED] CubeMate OnStep pin map / configuration

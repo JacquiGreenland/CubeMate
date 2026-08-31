@@ -72,7 +72,7 @@ CubeMate uses two **TMC2209 V3.0** modules, one for each axis.
 
 ### Socketing
 
-Socketing the drivers is strongly recommended. The PCB can accept directly soldered modules, but sockets make a failed or damaged driver much easier to replace.
+Socketing the drivers is strongly recommended. The PCB can accept directly soldered modules, but sockets make a failed or damaged driver much easier to replace.  Standard pin header sockets are the simplest but I like the cut down the legs on the components and use IC sockets for a much lower profile.
 
 The same approach is recommended for the ESP32-S3 Zero.
 

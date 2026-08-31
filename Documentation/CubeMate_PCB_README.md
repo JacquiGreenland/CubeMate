@@ -92,7 +92,7 @@ Each TMC2209 must be adjusted for the stepper motor with which it is being used.
 
 There is no single correct setting for every CubeMate build because it depends on the motor specification.
 
-**TMC2209 current-setting calculator/reference:** [LINK REQUIRED]
+I used the following link as a convenient calculator - https://grandpacad.com/en/tools/stepper-motor-vref-calculator
 
 Incorrect driver adjustment can produce surprisingly erratic motor behaviour, so this should be treated as a normal part of commissioning the controller.
 

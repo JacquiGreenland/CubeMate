@@ -147,10 +147,6 @@ Matched-star analysis showed no meaningful increase, or variation, in star elong
 
 These results are included as engineering validation rather than guaranteed performance. Guiding performance depends heavily on seeing, payload, balance, polar alignment, guiding configuration, optical geometry, tripod stiffness, wind, and individual strain-wave drive characteristics.
 
-Here is the photo taken during the 600 second exposure against C4 - it's a single mono frame taken in suburban Bristol through a UVIR luminance filter with low processing - so it is low on detail but shows the lack of star trailing and tightness of the guiding (even if the scope does need collimating!).
-
-![CubeMateExample](Documentation/images/Cubemate-600-seconds-975mm.png)
-
 ---
 
 ## Periodic error and guiding

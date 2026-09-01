@@ -2,7 +2,7 @@
 
 > **Compact open-source strain-wave drive telescope mount for luggable (portable) astrophotography and visual astronomy**
 
-![CubeMateEQ](Documentation/images/CubeMate.jpg)
+![CubeMateEQ](Documentation/images/cubemate.jpg)
 
 CubeMateEQ is a compact, open-source telescope mount designed around low-cost strain-wave (harmonic) gearboxes, stepper motors, CNC-machined aluminium parts, and the [OnStepX](https://github.com/hjd1964/OnStepX) control platform.
 

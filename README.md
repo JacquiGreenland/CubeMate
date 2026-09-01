@@ -1,20 +1,20 @@
-# CubeMate
+# CubeMateEQ
 
 > **Compact open-source strain-wave drive telescope mount for luggable (portable) astrophotography and visual astronomy**
 
-![CubeMate](Documentation/images/cubemate.jpg)
+![CubeMateEQ](Documentation/images/CubeMate.jpg)
 
-CubeMate is a compact, open-source telescope mount designed around low-cost strain-wave (harmonic) gearboxes, stepper motors, CNC-machined aluminium parts, and the [OnStepX](https://github.com/hjd1964/OnStepX) control platform.
+CubeMateEQ is a compact, open-source telescope mount designed around low-cost strain-wave (harmonic) gearboxes, stepper motors, CNC-machined aluminium parts, and the [OnStepX](https://github.com/hjd1964/OnStepX) control platform.
 
 The project was created because I wanted to build my own mount based around strain-wave gearboxes and evolved into an exploration of how far a practical DIY strain-wave mount could be taken using off-the-shelf parts. The result is a vaguely travel-friendly, modular, and compact mount that can be assembled with basic tools. It can operate in either **Equatorial (EQ)** or **Alt-Az** configurations and has been validated with real astrophotography workloads, including guiding at approximately 1 metre focal length while carrying a 6 kg payload.
 
-CubeMate is intended as an **open hardware engineering project**, not a commercial product. It is buildable, modifiable, and intended to be improved by the community.
+CubeMateEQ is intended as an **open hardware engineering project**, not a commercial product. It is buildable, modifiable, and intended to be improved by the community.
 
 ---
 
 ## Project status
 
-CubeMate is currently at a **field-validated prototype / open-hardware release** stage.
+CubeMateEQ is currently at a **field-validated prototype / open-hardware release** stage.
 
 The current design has:
 
@@ -30,11 +30,11 @@ The design is functionally complete, although there are still areas of refinemen
 
 ---
 
-## Why CubeMate?
+## Why CubeMateEQ?
 
-Commercial compact strain-wave drive mounts are excellent, but they were also extremely expensive when this project started. In recent years cheaper options using a similar mechanical principle to CubeMate have appeared, but the major commercial brands still typically involve spending several times the parts cost of assembling CubeMate.
+Commercial compact strain-wave drive mounts are excellent, but they were also extremely expensive when this project started. In recent years cheaper options using a similar mechanical principle to CubeMateEQ have appeared, but the major commercial brands still typically involve spending several times the parts cost of assembling CubeMateEQ.
 
-CubeMate was designed around my personal priorities:
+CubeMateEQ was designed around my personal priorities:
 
 - **open mechanical and electronic design;**
 - **commodity strain-wave drives and motors;**
@@ -43,21 +43,21 @@ CubeMate was designed around my personal priorities:
 - **real astrophotography performance rather than theoretical payload claims;**
 - **modularity and scope for future upgrades.**
 
-The aim is not to claim that CubeMate is a drop-in replacement for every commercial strain-wave mount. Commercial products offer advantages such as factory QA, tested periodic-error characteristics, support, warranties, and polished integration.  Some manufacturers, such as MLAstro, offer similar repairability along with all the other commercial benefits of precision and support.
+The aim is not to claim that CubeMateEQ is a drop-in replacement for every commercial strain-wave mount. Commercial products offer advantages such as factory QA, tested periodic-error characteristics, support, warranties, and polished integration.  Some manufacturers, such as MLAstro, offer similar repairability along with all the other commercial benefits of precision and support.
 
-CubeMate instead demonstrates what can be achieved with open hardware, relatively inexpensive components, careful mechanical design, and community software. It is not unique in this, but the design is highly modular and can be extended around the same basic form factor and principle.
+CubeMateEQ instead demonstrates what can be achieved with open hardware, relatively inexpensive components, careful mechanical design, and community software. It is not unique in this, but the design is highly modular and can be extended around the same basic form factor and principle.
 
 ---
 
 ## Why 'Luggable' and not 'Portable'
 
-CubeMate is notionally portable, and my wife and I certainly will be travelling with it, but it is not something you can simply throw into your hand luggage. It's the same size and weight as many commercial strain-wave mounts and it bothers me that they refer to them as portable!  The term is a deliberate nod to the old Compaq "luggables": portable PCs, certainly, but a long way from what laptops would eventually become.
+CubeMateEQ is notionally portable, and my wife and I certainly will be travelling with it, but it is not something you can simply throw into your hand luggage. It's the same size and weight as many commercial strain-wave mounts and it bothers me that they refer to them as portable!  The term is a deliberate nod to the old Compaq "luggables": portable PCs, certainly, but a long way from what laptops would eventually become.
 
 ---
 
-## Why the name CubeMate?
+## Why the name CubeMateEQ?
 
-During development I used AI extensively to check calculations, analyse guiding logs, and accelerate a variety of supporting tasks so that I could spend more time on the engineering decisions themselves. At one point, somewhat randomly, the AI referred to the project as "CubeMate". I liked the name enough that it stuck.
+During development I used AI extensively to check calculations, analyse guiding logs, and accelerate a variety of supporting tasks so that I could spend more time on the engineering decisions themselves. At one point, somewhat randomly, the AI referred to the project as "CubeMateEQ". I liked the name enough that it stuck.
 
 ---
 
@@ -80,7 +80,7 @@ During development I used AI extensively to check calculations, analyse guiding 
 
 ## Mechanical architecture
 
-The current CubeMate prototype uses:
+The current CubeMateEQ prototype uses:
 
 - **Type 14 cup-style strain-wave drives**
 - **100:1 primary reduction**
@@ -101,7 +101,7 @@ Larger strain-wave drives and stronger motors remain possible future development
 
 ## Electronics and control
 
-CubeMate uses a custom controller PCB designed around a **Waveshare ESP32-S3 Zero** and TMC2209 stepper drivers.
+CubeMateEQ uses a custom controller PCB designed around a **Waveshare ESP32-S3 Zero** and TMC2209 stepper drivers.
 
 The mount runs **OnStepX**, which provides:
 
@@ -115,7 +115,7 @@ The mount runs **OnStepX**, which provides:
 
 OnStepX needs to be downloaded separately and compiled with the supplied pinmap and configuration files along with any other desired software changes.
 
-The repository includes CubeMate-specific configuration material and the custom ESP32-S3 pin map required for the controller PCB.
+The repository includes CubeMateEQ-specific configuration material and the custom ESP32-S3 pin map required for the controller PCB.
 
 > **Important:** always verify the supplied pin map against the PCB revision being built. Step/direction assignments and TMC UART addressing must agree with the physical board.
 
@@ -123,11 +123,11 @@ The repository includes CubeMate-specific configuration material and the custom 
 
 ## Proven astrophotography performance
 
-CubeMate has been tested using several imaging configurations.  All of these tests were performed in suburban Bristol and not under pristine dark skies.
+CubeMateEQ has been tested using several imaging configurations.  All of these tests were performed in suburban Bristol and not under pristine dark skies.
 
 ### ~180 mm imaging
 
-With a lightweight imaging payload consisting of a ZWO ASI585MC Air and a Nikon 180 mm prime lens, using the custom wedge and an EQ5 tripod, CubeMate has demonstrated sustained sub-arcsecond guiding.
+With a lightweight imaging payload consisting of a ZWO ASI585MC Air and a Nikon 180 mm prime lens, using the custom wedge and an EQ5 tripod, CubeMateEQ has demonstrated sustained sub-arcsecond guiding.
 
 ### ~975 mm imaging
 
@@ -157,13 +157,13 @@ Testing has shown a strong repeatable periodic component of approximately **428�
 
 PHD2 Predictive PEC (PPEC) materially improves RA guiding once the period is learned.
 
-Different gearboxes will almost certainly exhibit different periodic error. Because CubeMate is designed around off-the-shelf components this variability is treated as something to accommodate through guiding rather than eliminate through individual selection of expensive high-precision components.
+Different gearboxes will almost certainly exhibit different periodic error. Because CubeMateEQ is designed around off-the-shelf components this variability is treated as something to accommodate through guiding rather than eliminate through individual selection of expensive high-precision components.
 
 ---
 
 ## Payload
 
-CubeMate does not use a single absolute payload rating because useful payload depends on the application, counterweights, distance of the payload from the centre of rotation, and many other factors.
+CubeMateEQ does not use a single absolute payload rating because useful payload depends on the application, counterweights, distance of the payload from the centre of rotation, and many other factors.
 
 As a practical guide:
 
@@ -178,7 +178,7 @@ For astrophotography, guiding performance is a more useful measure than whether 
 
 ## Counterweights
 
-Like many strain-wave-drive mounts, CubeMate can be used without a counterweight for lighter payloads.
+Like many strain-wave-drive mounts, CubeMateEQ can be used without a counterweight for lighter payloads.
 
 Counterweights can still be useful because they:
 
@@ -193,11 +193,11 @@ The current design supports counterweight use where required using a counterweig
 
 ## Equatorial mounting
 
-CubeMate can be configured for equatorial use.
+CubeMateEQ can be configured for equatorial use.
 
 The current prototype uses a **custom EQ wedge**. That wedge is not included in the initial open release because the present design is functional but not sufficiently user-friendly to be recommended as a general solution.
 
-Instead, the repository includes a step file for a Vixen-Style Dovetail plate that allows CubeMate to be attached to other EQ wedge solutions.
+Instead, the repository includes a step file for a Vixen-Style Dovetail plate that allows CubeMateEQ to be attached to other EQ wedge solutions.
 
 A more refined open EQ wedge is planned for the future.
 
@@ -205,7 +205,7 @@ A more refined open EQ wedge is planned for the future.
 
 ## Alt-Az operation
 
-CubeMate can also be operated as an Alt-Az mount through OnStepX.
+CubeMateEQ can also be operated as an Alt-Az mount through OnStepX.
 
 This makes it suitable for:
 
@@ -259,7 +259,7 @@ The repository includes:
 - manufacturing drawings;
 - PCB design files;
 - controller pin mapping;
-- CubeMate-specific OnStepX configuration;
+- CubeMateEQ-specific OnStepX configuration;
 - Bill of Materials;
 - assembly documentation.
 
@@ -286,11 +286,11 @@ The high-level build sequence is:
 
 ## Firmware
 
-CubeMate uses [OnStepX](https://github.com/hjd1964/OnStepX).
+CubeMateEQ uses [OnStepX](https://github.com/hjd1964/OnStepX).
 
 OnStepX is a separate project and remains subject to its own licence.
 
-CubeMate-specific configuration files are supplied only to make it easier to reproduce the tested hardware configuration.
+CubeMateEQ-specific configuration files are supplied only to make it easier to reproduce the tested hardware configuration.
 
 Builders should retain a known-good firmware image before experimenting with settings such as:
 
@@ -307,7 +307,7 @@ Builders should retain a known-good firmware image before experimenting with set
 
 ## Safety
 
-CubeMate is an experimental open-hardware telescope mount.
+CubeMateEQ is an experimental open-hardware telescope mount.
 
 A telescope mount is capable of producing substantial torque and can damage equipment, trap fingers, wrap cables, or drive an optical system into a tripod or pier if incorrectly configured.
 
@@ -329,11 +329,11 @@ Always test motion without valuable optics attached when commissioning a new bui
 
 ## Licensing
 
-CubeMate uses separate licences for hardware and documentation.
+CubeMateEQ uses separate licences for hardware and documentation.
 
 ### Hardware
 
-Unless otherwise stated, CubeMate hardware design files are licensed under:
+Unless otherwise stated, CubeMateEQ hardware design files are licensed under:
 
 **CERN Open Hardware Licence Version 2 — Strongly Reciprocal (CERN-OHL-S-2.0)**
 
@@ -354,15 +354,15 @@ Documentation is licensed under:
 
 ### Software
 
-CubeMate does not redistribute OnStepX.
+CubeMateEQ does not redistribute OnStepX.
 
 OnStepX and other third-party software remain under their respective licences.
 
 ### Name and branding
 
-The **CubeMate** name, logo, and project branding are not licensed under CERN-OHL-S-2.0 or CC BY-SA 4.0.
+The **CubeMateEQ** name, logo, and project branding are not licensed under CERN-OHL-S-2.0 or CC BY-SA 4.0.
 
-Use of the open hardware does not imply that a derived product is manufactured, certified, endorsed, or supported by the CubeMate project.
+Use of the open hardware does not imply that a derived product is manufactured, certified, endorsed, or supported by the CubeMateEQ project.
 
 See `LICENSES.md` for full details and the individual `LICENSE` file in each directory for the full text of the applicable licence.
 
@@ -389,7 +389,7 @@ When submitting performance results, please include enough information to make t
 
 ## Project philosophy
 
-CubeMate exists because a telescope mount does not have to be a sealed proprietary appliance.
+CubeMateEQ exists because a telescope mount does not have to be a sealed proprietary appliance.
 
 The project is intended to remain:
 
@@ -405,7 +405,7 @@ Commercial manufacture, group buys, assembled boards, and paid build services ar
 
 ## Acknowledgements
 
-CubeMate would not exist without the work of the OnStep / OnStepX community and the wider open-source astronomy ecosystem.
+CubeMateEQ would not exist without the work of the OnStep / OnStepX community and the wider open-source astronomy ecosystem.
 
 Particular thanks go to the developers and contributors behind:
 
@@ -420,7 +420,7 @@ and to everyone who has documented, tested, and shared practical experience with
 
 ## Disclaimer
 
-CubeMate is provided as open hardware without warranty.
+CubeMateEQ is provided as open hardware without warranty.
 
 Build and use it at your own risk.
 
@@ -428,4 +428,4 @@ Astronomy equipment can be expensive. Verify every axis, limit, connector, volta
 
 ---
 
-**CubeMate — compact, open, repairable, and extendable hardware for astronomy.**
+**CubeMateEQ — compact, open, repairable, and extendable hardware for astronomy.**
